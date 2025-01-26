@@ -13,7 +13,10 @@ export const Contact = props => {
                      </div>
 
                      <div id="success"></div>
-                     <button type="submit" className="btn btn-custom btn-lg">
+                     <button
+                        type="submit"
+                        className="btn btn-custom btn-lg"
+                        onClick={() => window.open('https://open.kakao.com/o/sAtiWaTc', '_blank')}>
                         Open Chatting in kakao talk
                      </button>
                   </div>
@@ -62,9 +65,7 @@ export const Contact = props => {
          </div>
          <div id="footer">
             <div className="container text-center">
-               <p>
-                  &copy; 2025 software engineer tutoring program
-               </p>
+               <p>&copy; 2025 software engineer tutoring program</p>
             </div>
          </div>
       </div>
