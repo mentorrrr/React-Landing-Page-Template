@@ -1,15 +1,14 @@
-import { Image } from "./image";
 import React from "react";
+import { Image } from "./image";
 
 export const Gallery = (props) => {
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Review</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            실제 수업을 수강하고 있는, 수강했던 멘티들의 솔직한 후기를 확인해보세요.
           </p>
         </div>
         <div className="row">
